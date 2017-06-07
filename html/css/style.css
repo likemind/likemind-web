@@ -12,41 +12,82 @@ body {
   color: #666666;
   font-family: "Open Sans", sans-serif;
 }
+
 .glyphicon-ok::before {
     content: "";
-    margin-left: -6px;
+    margin-left: -13px;
+     padding: 4px 6px 6px 7px;
+     background-color: #31b0d5;
+    border-color: #656565;
+    
 }
-.glyphicon-ook::before {
-    content: "";
-}
-
-
 .btn-primary1 {
-    background-color: #31b0d5;
-    border-color: #2e6da4;
+    background-color: #D9D9D9;
+    border-color: #c0c0c0;
     color: #ffffff;
 }
 
 .btn-primary2 {
-    background-color: #31b0d5;
-    border-color: #2e6da4;
+    background-color: #D9D9D9;
+    border-color: #c0c0c0;
     color: #ffffff;
 }
 .btn-primary3 {
-    background-color: #31b0d5;
-    border-color: #2e6da4;
+    background-color: #D9D9D9;
+    border-color: #c0c0c0;
     color: #ffffff;
 }
 .btn-primary4 {
-    background-color: #31b0d5;
-    border-color: #2e6da4;
+    background-color: #D9D9D9;
+    border-color: #c0c0c0;
     color: #ffffff;
 }
 .btn-primary5 {
-    background-color: #31b0d5;
-    border-color: #2e6da4;
+    background-color: #D9D9D9;
+    border-color: #c0c0c0;
     color: #ffffff;
 }
+.btn-primary6 {
+    background-color: #D9D9D9;
+    border-color: #c0c0c0;
+    color: #ffffff;
+}
+.btn-primary7 {
+    background-color: #D9D9D9;
+    border-color: #c0c0c0;
+    color: #ffffff;
+}
+.btn-primary8 {
+    background-color: #D9D9D9;
+    border-color: #c0c0c0;
+    color: #ffffff;
+}
+.btn-primary9 {
+    background-color: #D9D9D9;
+    border-color: #c0c0c0;
+    color: #ffffff;
+}
+
+input[type='checkbox'] {
+	/* Hide the checkbox input ui */
+	opacity: 0;
+}
+
+/* Apply custom images - size your images according to text and stuff */
+/* Take any custom image you want and encode it with http://websemantics.co.uk/online_tools/image_to_data_uri_convertor/ or alike */
+input[type='checkbox'] + span{
+	background: url(../img/check1.jpg) no-repeat center left;
+	padding-left: 18px;
+	margin-left: 0px;
+}
+input[type='checkbox']:checked + span{
+	background: url(../img/chech2.jpg) no-repeat center left;
+}
+
+/* Compatibility: pretty much all browsers except IE prior version 8 */
+
+/* The following styles are for this example only and do not affect the functionality */
+/*span { color: #fb3b3b }*/
 
 
 
