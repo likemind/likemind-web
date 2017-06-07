@@ -12,6 +12,48 @@ body {
   color: #666666;
   font-family: "Open Sans", sans-serif;
 }
+.glyphicon-ok::before {
+    content: "";
+    margin-left: -6px;
+}
+.glyphicon-ook::before {
+    content: "";
+}
+
+
+.btn-primary1 {
+    background-color: #31b0d5;
+    border-color: #2e6da4;
+    color: #ffffff;
+}
+
+.btn-primary2 {
+    background-color: #31b0d5;
+    border-color: #2e6da4;
+    color: #ffffff;
+}
+.btn-primary3 {
+    background-color: #31b0d5;
+    border-color: #2e6da4;
+    color: #ffffff;
+}
+.btn-primary4 {
+    background-color: #31b0d5;
+    border-color: #2e6da4;
+    color: #ffffff;
+}
+.btn-primary5 {
+    background-color: #31b0d5;
+    border-color: #2e6da4;
+    color: #ffffff;
+}
+
+
+
+.btn-default.active, .btn-default:active, .open > .dropdown-toggle.btn-default
+{
+    background-color: #FFFFFF !important;
+}
 
 .form-container div, .form-container  span{
     font-family: Calibri, Candara, Segoe, 'Segoe UI', Optima, Arial, sans-serif;
@@ -1415,7 +1457,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .form-group input[type="checkbox"] + .btn-group > label span {
-    width: 20px;
+    width: 0px;
 }
 
 .form-group input[type="checkbox"] + .btn-group > label span:first-child {
